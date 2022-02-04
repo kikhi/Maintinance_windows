@@ -12,6 +12,7 @@ echo Desfragmentar disco duro
 defrag c: /a
 defrag c: /d
 
-cls
+ipconfig /flushdns
 
 systeminfo
+ipconfig
