@@ -12,7 +12,12 @@ echo Desfragmentar disco duro
 defrag c: /a
 defrag c: /d
 
+ipconfig /renew
+arp -d *
+nbtstat -R
+nbtstat -RR
 ipconfig /flushdns
+ipconfig /registerdns
 
 systeminfo
 ipconfig
