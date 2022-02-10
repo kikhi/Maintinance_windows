@@ -2,13 +2,13 @@ echo Archivos basura
 cd %temp% 
 cd prefetch
 
-echo Escaneo de integridad de archivos
+echo Files integrity scan
 sfc /scannow
 
-echo Escaneo y reparacion de daños en disco duro
+echo Hard drive Scan and Fix problems
 chkdsk
 
-echo Desfragmentar disco duro
+echo Defrag hard drive
 defrag c: /a
 defrag c: /d
 
