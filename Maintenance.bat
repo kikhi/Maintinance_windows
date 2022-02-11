@@ -1,3 +1,5 @@
+title Windows Maintenance
+
 echo Archivos basura
 cd %temp% 
 cd prefetch
