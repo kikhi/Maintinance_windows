@@ -21,3 +21,4 @@ ipconfig /registerdns
 
 systeminfo
 ipconfig
+netstat
