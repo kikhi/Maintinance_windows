@@ -6,4 +6,4 @@ Batch program for windows maintenance
 - Download batch file 
 - Doble click in batch file
 
-Will start to maintenance of windows and networks.
+Will start the maintenance of windows and networks.
