@@ -25,3 +25,6 @@ systeminfo
 ipconfig
 netstat
 powercfg /batteryreport output
+
+
+:: For powershell windows clave(Get-WmiObject -query ‘select * from SoftwareLicensingService’).OA3xOriginalProductKey)
