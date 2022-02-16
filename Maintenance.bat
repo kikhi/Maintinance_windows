@@ -21,10 +21,13 @@ nbtstat -RR
 ipconfig /flushdns
 ipconfig /registerdns
 
+echo ======== System and network Information ========
 systeminfo
 ipconfig
 netstat
 powercfg /batteryreport output
 
+echo ========Windows Key========
+WMIC Path SoftwareLicensingService Get OA3xOriginalProductKey
 
 :: For powershell windows clave(Get-WmiObject -query ‘select * from SoftwareLicensingService’).OA3xOriginalProductKey)
