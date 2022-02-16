@@ -25,7 +25,7 @@ echo ======== System and network Information ========
 systeminfo
 ipconfig
 netstat
-powercfg /batteryreport output
+powercfg /batteryreport 
 
 echo ========Windows Key========
 WMIC Path SoftwareLicensingService Get OA3xOriginalProductKey
