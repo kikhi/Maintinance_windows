@@ -24,3 +24,4 @@ ipconfig /registerdns
 systeminfo
 ipconfig
 netstat
+powercfg /batteryreport output
